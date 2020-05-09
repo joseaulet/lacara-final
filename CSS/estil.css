@@ -1,0 +1,90 @@
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#izquierda {
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+}
+
+img {
+    width: 38%;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#containercenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    line-height: 2.5em;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a {
+    margin-bottom: 4%;
+    margin-top: 3%;
+    background-image: url(../img/lacara.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 50vh;
+}
+
+@media (max-width: 576px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
